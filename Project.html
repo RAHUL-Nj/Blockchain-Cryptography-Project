@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Cryptography Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blockchain Cryptography</h1>
+    <div id="blockchain-info">
+      <h2>Blockchain Information</h2>
+      <button onclick="showBlockchainInfo()">Get Blockchain Info</button>
+      <div id="info-output"></div>
+    </div>
+    <div id="transaction-section">
+      <h2>Create a Transaction</h2>
+      <input type="text" id="sender" placeholder="Sender">
+      <input type="text" id="receiver" placeholder="Receiver">
+      <input type="number" id="amount" placeholder="Amount">
+      <button onclick="createTransaction()">Create Transaction</button>
+      <div id="transaction-output"></div>
+    </div>
+    <div id="mine-section">
+      <h2>Mine Block</h2>
+      <button onclick="mineBlock()">Mine Block</button>
+      <div id="mine-output"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
