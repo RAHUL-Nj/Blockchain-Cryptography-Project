@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url(Blockchain-Technology-min.gif);
+  
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+ 
+}
+
+input, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#transaction-section {
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  
+}
+
